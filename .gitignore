@@ -1,3 +1,5 @@
 dataset/
 PDMX/
 .venv/
+.claude/
+fs_config.txt
