@@ -6,7 +6,7 @@ from music_transformer import MusicTransformer
 import music_helpers as mh
 import torch
 
-# Loads the SoundFront and Model Endpoint
+# Loads the SoundFont and Model Endpoint
 # You will need to download your own SF2 if you do not have one
 SF2_PATH = r'c:\Users\James\Music\Samples\GeneralUser_GS_v2.0.3--doc_r6\GeneralUser-GS\GeneralUser-GS.sf2'
 ENDPOINT = torch.load('music_transformer.pth', map_location='cpu', weights_only=False)
