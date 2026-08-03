@@ -1,6 +1,6 @@
 dataset/
-PDMX/
 .venv/
 .claude/
 fs_config.txt
 gravity_ai_pkg/
+grav_models/
